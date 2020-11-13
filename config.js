@@ -1,5 +1,5 @@
 document.title = "Sikaf";
-conf.host='https://guru.sikaf.id/sikaf/';
+conf.host='https://guru.sikaf.id/';
 conf.model='database.php';
 conf.home='modules/users/controller.js?users/login';
 if(conf.isSc==0){conf.sc(conf.home);}
