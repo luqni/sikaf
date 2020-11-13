@@ -16,7 +16,7 @@ include($path);
 
 class ktupad extends koneksi {
 public $conf=array(
-'baseURL' => 'https://guru.sikaf.id/sikaf/',
+'baseURL' => 'https://guru.sikaf.id/',
 'isTingkat' => 0,
 'isAkses'   => 0,
 'uid'       => 0,
