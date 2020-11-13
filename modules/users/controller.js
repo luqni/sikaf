@@ -1,7 +1,7 @@
 x='users';
 ktupad(x);
   k[x].app={
-  url:{host:'https://guru.sikaf.id/sikaf/',path:'modules/users/model.php'},
+  url:{host:'https://guru.sikaf.id/',path:'modules/users/model.php'},
   data:[{id:1,nama:"satu" },{id:2,nama:"dua" },{id:3,nama:"tiga"}],
   view:function(){
     k[x].ajax.path=this.url.path;
