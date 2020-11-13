@@ -29,7 +29,7 @@ signform:function(){
   out += '<i class="material-icons">person</i>';
   out += '</span>';
   out += '<div class="form-line">';
-  out += '<input type="text" id="idd" name="idd"  class="form-control" name="username" placeholder="Username" required autofocus>';
+  out += '<input type="text" id="idd" name="idd"  class="form-control" placeholder="Username" required autofocus>';
   out += '</div>';
   out += '</div>';
   out += '<div class="input-group">';
@@ -37,7 +37,7 @@ signform:function(){
   out += '<i class="material-icons">lock</i>';
   out += '</span>';
   out += '<div class="form-line">';
-  out += '<input type="password" id="pin" name="pin" class="form-control" name="password" placeholder="Password" required>';
+  out += '<input type="password" id="pin" name="pin" class="form-control" placeholder="Password" required>';
   out += '</div>';
   out += '</div>';
   out += '<div class="row">';
