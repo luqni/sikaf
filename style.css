@@ -1,0 +1,11 @@
+:root {
+--pColor:     #00738e;
+--pLightColor:#4da2be;
+--pDarkColor: #004761;
+--pTextColor: #ffffff;
+}
+
+#sertifikat { position:relative; height: 205mm; width:292mm; text-align: center; }
+#image { position:relative;  height: 205mm; width:292mm;  }
+#nama { position:absolute;  top:85mm; font-size: 60px; text-align: center; width: 100%; }
+#nilai { position:absolute; left:70mm; top:150mm; font-size: 60px; }

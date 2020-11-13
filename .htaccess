@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9]+)/?$ 404.html
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9\-_]+)/?$ 404.html
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9\-_]+)/([a-zA-Z0-9]+)/?$ 404.html
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9\-_]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9-]+)/?$ 404.html
+
+ 

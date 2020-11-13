@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html  lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="Description" content="Ktupad MVC Framework by bawan sismadi">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+<title>Ktupad MVC</title>
+
+<link rel="shortcut icon" href="../system/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../system/ktupad.css">
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+<body>
+<div id="depan" class="hide"></div>
+
+<div id="belakang" class="main">
+<div id="atas" class="atas1 navbar pDarkColor">
+<ul style="list-style-type: none; margin:0; left:0; padding: 0;">
+<li style="float:right"><a><i class="ico-folder"></i></a></li>
+
+<li tabindex="0" class="sidebar-menu">
+<i class="ico-burger btn-"></i>
+
+<ul id="kiri" class="sidebar pColor" >
+<li><input id="1s" type="checkbox" ><label class="btn-h" for="1s" >Info</label>
+<ul><li><input id="2s" type="checkbox" ><label class="btn-h" for="2s" >Ktupad-2.0</label></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div id="content" class="content">
+<div id="float" class="btn-float" onclick="k.open('login')" ><i class="ico-plus"></i></div>
+
+<div id="login" class="depan hide">
+<div  class="modal row">
+<button   class="btn-close ico-close" onclick="k.close('login')"></button>
+<!-- <i class="btn-close ico-close"></i> -->
+<h2> Logins </h2>
+<form >
+<div> <label for="namas">User name</label><br/>	<input id="namas" type="text" name="nama" value=""></div>
+<div> <label for="sandis">Password</label><br/><input id="sandis" type="password" name="sandi" value=""></div>
+
+<div class="clear">
+<input id="order1" type="hidden" name="order1" value="ORDER BY">
+ORDER BY:<select id="fld1" name="sortir" >
+<option value="id" >ID</option>
+<option value="nama" >Nama</option>
+</select>
+</div>
+</form>
+
+<form method=post enctype="multipart/form-data" ><label for="afile">
+Pilih File CSV:</label><input id="afile" type="file" name="afile" >
+</form>
+
+<button id="import" class="btn-form" name=upload >Import</button>
+<button id="signin" class="btn-form">Sign In</button>
+</div>
+</div>
+
+<div id="gallery" class="depan hide">
+<div  class="modal row">
+<button   class="btn-close ico-close" onclick="k.close('gallery')"></button>
+<div  class="dashboard">
+<div class="row">
+<div class="l-6 s-12 tengah posimg"><a href="#"><img src="../system/logo.svg" alt="Cinque Terre"></a></div>
+<div class="l-6 s-12 tengah posimg"><a href="#"><img src="../system/logo.svg" alt="Cinque Terre" ></a></div>
+<div class="l-6 s-12 tengah posimg"><a href="#"><img src="../system/logo.svg" alt="Cinque Terre"></a></div>
+<div class="l-6 s-12 tengah posimg"><a href="#"><img src="../system/logo.svg" alt="Cinque Terre" ></a></div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="chart" class="depan hide">
+<div  class="modal row ">
+<button   class="btn-close ico-close" onclick="k.close('chart')"></button>
+<div   class="dashboard ">
+<div class="row">
+<div class="l-6 s-12 ">
+<div class="chart vertical row">
+<table>
+<tr>
+<td><div class="bg1" style="height:100%"> 100 % </div></td>
+<td><div class="bg2" style="height:80%"> 80 % </div></td>
+<td><div class="bg3" style="height:10%"> 00 % </div></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="l-6 s-12 ">
+<div class="chart horizontal row">
+<table>
+<tr><td><div class="bg4" style="width:100%"> 100 % </div></td></tr>
+<tr>	<td><div class="bg5" style="width:80%"> 80 % </div></td></tr>
+<tr>	<td><div class="bg6" style="width:10%"> 00 % </div></td></tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="search" class="search row pColor">
+<ul>
+<li class="pTextColor" style="padding: 14px 16px;">Modul</li>
+<li id="caris" tabindex="0" class="tool" style="float:right" >
+<i class="ico-tridot dropbtn"></i>
+<div class="subtool" >
+<a  href="#" >Filter</a>
+<a  href="#" >Export</a>
+<a  href="#" >Import</a>
+<a  href="#" >Print</a>
+</div>
+</li>
+<li id="SearchTxt" style="float:right" ><label for="InpSearch">.</label><input id="InpSearch" type="text" placeholder="Search..." /></li>
+</ul>
+</div>
+<div id="table" class="table">
+<table>
+<tr><th class="pColor"><label> <input type="checkbox">ID</label></th><th class="pColor">Nama</th><th class="pColor">Aksi</th></tr>
+<tr><td><label> <input type="checkbox">1</label></td><td>Chart</td><td><button onclick="k.open('chart')" class="btn-form">View</button></td></tr>
+<tr><td><label> <input type="checkbox">2</label></td><td>Form</td><td><button onclick="k.open('login')" class="btn-form">View</button></tr>
+<tr><td><label> <input type="checkbox">3</label></td><td>Gallery</td><td><button onclick="k.open('gallery')" class="btn-form">View</button></tr>
+<tr><td><label> <input type="checkbox">4</label></td><td>Notify</td><td><button onclick="k.open('bawah')" class="btn-form">View</button></tr>
+</table>
+</br>
+</div>
+
+<div id="pagination" class="pagination">
+<button id="p" class="btn-form">Prev</button>
+<button id="n" class="btn-form">Next</button>
+<span id="s">Page:1/7</span>
+</div>
+<!-- end content -->
+<div id="kanan" class="kanan"> </div>
+<div id="bawah" class="pDarkColor notify hide" onclick="k.close('bawah')" >Info</div>
+</div>
+<!-- end main -->
+<script>
+k={
+close:function(id){
+var z=document.getElementById(id);
+z.className = z.className.replace('show', 'hide');
+},
+open:function (id){
+var z=document.getElementById(id);
+z.className = z.className.replace('hide', 'show');
+}
+}
+</script>
+</body>
+</html>

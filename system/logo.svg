@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="65mm"
+   height="54mm"
+   viewBox="0 0 65 54"
+   version="1.1"
+   id="svg433"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <title
+     id="title84">ktupad logo</title>
+  <defs
+     id="defs427" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-57.893523"
+     inkscape:cy="0.7159202"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="40.846379,34.675286"
+       orientation="0,1"
+       id="guide133"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.522135,18.898809"
+       orientation="0,1"
+       id="guide135"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="24.025898,33.113628"
+       orientation="1,0"
+       id="guide137"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.873272,19.878171"
+       orientation="1,0"
+       id="guide139"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata430">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ktupad logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>wawan sismadi</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-243)">
+    <g
+       id="g165"
+       transform="matrix(0.70806953,0.71030454,-0.70806953,0.71030454,201.27805,49.638924)"
+       style="fill:#000000">
+      <rect
+         style="fill:#000000;stroke-width:0.69992095"
+         y="246.51987"
+         x="25.374411"
+         height="15.842349"
+         width="12.690009"
+         id="rect3747"
+         transform="matrix(0.99999963,8.6281924e-4,8.6281924e-4,0.99999963,0,0)" />
+      <rect
+         transform="matrix(-8.6281924e-4,-0.99999963,0.99999963,8.6281924e-4,0,0)"
+         id="rect3726-3"
+         width="12.690009"
+         height="15.842349"
+         x="-276.55594"
+         y="23.784634"
+         style="fill:#000000;stroke-width:0.69992095" />
+      <rect
+         transform="matrix(-8.6281924e-4,-0.99999963,0.99999963,8.6281924e-4,0,0)"
+         style="fill:#000000;stroke-width:0.69992095"
+         y="39.61187"
+         x="-260.78555"
+         height="15.842349"
+         width="12.690009"
+         id="rect3743" />
+      <rect
+         transform="matrix(0.99999963,8.6281924e-4,8.6281924e-4,0.99999963,0,0)"
+         id="rect3745"
+         width="12.690009"
+         height="15.842349"
+         x="9.6752682"
+         y="262.30328"
+         style="fill:#000000;stroke-width:0.69992095" />
+      <rect
+         transform="matrix(-8.6281924e-4,-0.99999963,0.99999963,8.6281924e-4,0,0)"
+         style="fill:#000000;stroke-width:0.69992095"
+         y="7.9482765"
+         x="-292.4678"
+         height="15.842349"
+         width="12.690009"
+         id="rect3724" />
+      <rect
+         transform="matrix(-8.6281924e-4,-0.99999963,0.99999963,8.6281924e-4,0,0)"
+         id="rect3726"
+         width="12.690009"
+         height="15.842349"
+         x="-292.39871"
+         y="39.611435"
+         style="fill:#000000;stroke-width:0.69992095" />
+      <rect
+         transform="matrix(0.99999963,8.6281924e-4,8.6281924e-4,0.99999963,0,0)"
+         id="rect3749"
+         width="12.690009"
+         height="15.842349"
+         x="25.347122"
+         y="278.14621"
+         style="fill:#000000;stroke-width:0.69992095" />
+      <rect
+         style="fill:#000000;stroke-width:0.69992095"
+         y="262.27609"
+         x="41.188046"
+         height="15.842349"
+         width="12.690009"
+         id="rect3751"
+         transform="matrix(0.99999963,8.6281924e-4,8.6281924e-4,0.99999963,0,0)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="shortcut icon" href="/system/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<style>
+img { position: absolute;top: 50%;left: 50%; width: 72px; margin-left: -36px; /* Half the width */}
+.hl{ color:green; }
+.bg{ background:#004761; }
+
+</style>
+
+<title>Nindja IoT</title>
+</head>
+<body>
+
+<span class='hl' >nindja.id API</span><br>
+<span>How to</span>
+<div style="height: auto;">
+
+<pre>
+POST
+<span class='hl'>http://iot.nindja.id/api/POST/{deviveid}/{pin}/{value} </span>
+http://iot.nindja.id/api/POST/1/123456/hi-nindja
+result
+{"mod":"POST","info":"Berhasil POST data, Device ID:1, PIN:123456 dan Value:hi-nindja"}
+
+GET
+<span class='hl'>http://iot.nindja.id/api/GET/{deviveid}/{pin}</span>
+http://iot.nindja.id/api/GET/1/123456/
+result
+{"mod":"GET","data":{"id":"23","deviceid":"1","pin":"123456","value":"hi-nindja"}}
+
+PUT
+<span class='hl'>http://iot.nindja.id/api/PUT/{deviveid}/{pin}/{value}</span>
+http://iot.nindja.id/api/PUT/1/123456/hello-nindja
+result
+{"mod":"PUT","info":"Berhasil PUT data, Device ID:1, PIN:123456 dan Value:hello-nindja"}
+
+DELETE
+<span class='hl'>http://iot.nindja.id/api/DELETE/{deviveid}/{pin}</span>
+http://iot.nindja.id/api/DELETE/1/123456
+result
+{"mod":"DELETE","info":"Berhasil DELETE data, Device ID:1"}
+</pre>
+</span>
+</body>
+</html>
