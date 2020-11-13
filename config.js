@@ -1,6 +1,6 @@
-document.title = "Ktupad";
+document.title = "SIKAF  ";
 // conf.host='https://kuis.ktupad.id/';
-conf.host='http://localhost/kuis-lama/';
+conf.host='https://guru.sikaf.id/sikaf';
 conf.model='database.php';
 conf.home='modules/users/controller.js?users/login';
 if(conf.isSc==0){conf.sc(conf.home);}
