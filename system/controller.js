@@ -1,7 +1,7 @@
 x='iot';
 ktupad(x);
 k[x].app={
-url:{host:'http://localhost/',path:'modules/iot/model.php'},
+url:{host:'https://guru.sikaf.id/sikaf/',path:'modules/iot/model.php'},
 data:[{id:1,nama:"satu" },{id:2,nama:"dua" },{id:3,nama:"tiga"}],
 view:function(){
   this.iot();
