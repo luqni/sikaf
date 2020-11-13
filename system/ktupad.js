@@ -39,7 +39,7 @@ var conf={
   data:{},
   mod:'view',
   model:'app.php',
-  host:'https://guru.sikaf.id/sikaf/data/',
+  host:'https://guru.sikaf.id/data/',
   path:'ktupad/model.php',
   profile:{ nama:'ktupad',alamat:'jakarta',telpon:'0812.3123.7896',},
   induk:'1',
