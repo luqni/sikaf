@@ -22,8 +22,6 @@ else var debug = function(){}
     246:'text',//'decimal'
 };
 
-
-
 var conf={
   isStr:1,
   isSc:0,
