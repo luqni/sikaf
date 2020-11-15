@@ -1,7 +1,7 @@
 x='users';
 ktupad(x);
   k[x].app={
-  url:{host:'https://guru.sikaf.id/',path:'modules/users/model.php'},
+  url:{host:'http://localhost/kuis-lama/ ',path:'modules/users/model.php'},
   data:[{id:1,nama:"satu" },{id:2,nama:"dua" },{id:3,nama:"tiga"}],
   view:function(){
     k[x].ajax.path=this.url.path;
@@ -46,7 +46,6 @@ signform:function(){
   out += '<label for="rememberme">Remember Me</label>';
   out += '</div>';
   out += '<div class="col-xs-4">';
-  out += '<button class="btn btn-block bg-pink waves-effect" type="submit" onclick="k.users.app.signin()" >SIGN IN</button>';
   out += '</div>';
   out += '</div>';
   out += '<div class="row m-t-15 m-b--20">';
@@ -58,6 +57,7 @@ signform:function(){
   out += '</div>';
   out += '</div>';
   out += '</form>';
+  out += '<button class="btn btn-block bg-pink waves-effect" type="submit" onclick="k.users.app.signin()" >SIGN IN</button>';
   out += '</div>';
   out += '</div>';
   out += '</div>';
