@@ -92,6 +92,7 @@ signin:function(){
       n=info.split(',');
       conf.info(res.info);
       if (n[0]=='Berhasil'){
+        debug(n[0])
         conf.cookies.set("username",res.data,1);
         k.users.app.login();
         k.users.app.menu();
