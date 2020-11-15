@@ -130,10 +130,9 @@ login:function(){
   var user=conf.cookies.get("username");
   if (user != "") {
   conf.info("Welcome again " + user);
-  location.reload(); 
   this.header();
   this.sidebar();
-  this.menu();
+  // this.menu();
   // this.profiles();
   } else {
   this.signform();
@@ -199,6 +198,7 @@ menu:function(){
 
 header:function(){
   user=conf.cookies.get("username");
+   
     out ='<nav class="navbar">';
     out +='<div class="container-fluid">';
     out +='<div class="navbar-header">';
