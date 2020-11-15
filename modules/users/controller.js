@@ -17,7 +17,7 @@ signform:function(){
   out = '<div class="login-page" id="login">';
   out += '<div class="login-box">';
   out += '<div class="logo">';
-  out += '<a id="li-kiri" href="javascript:void(0);">Admin<b>BSB</b></a>';
+  out += '<a id="li-kiri" href="javascript:void(0);"><b>SIKAF</b></a>';
   out += '<small>Admin BootStrap Based - Material Design</small>';
   out += '</div>';
   out += '<div class="card">';
