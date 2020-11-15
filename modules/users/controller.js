@@ -40,12 +40,14 @@ signform:function(){
   out += '<input type="password" id="pin" name="pin" class="form-control" placeholder="Password" required>';
   out += '</div>';
   out += '</div>';
+  out += '</form>';
   out += '<div class="row">';
   out += '<div class="col-xs-8 p-t-5">';
   out += '<input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">';
   out += '<label for="rememberme">Remember Me</label>';
   out += '</div>';
   out += '<div class="col-xs-4">';
+  out += '<button class="btn btn-block bg-pink waves-effect" type="submit" onclick="k.users.app.signin()" >SIGN IN</button>';
   out += '</div>';
   out += '</div>';
   out += '<div class="row m-t-15 m-b--20">';
@@ -56,8 +58,6 @@ signform:function(){
   out += '<a href="forgot-password.html">Forgot Password?</a>';
   out += '</div>';
   out += '</div>';
-  out += '</form>';
-  out += '<button class="btn btn-block bg-pink waves-effect" type="submit" onclick="k.users.app.signin()" >SIGN IN</button>';
   out += '</div>';
   out += '</div>';
   out += '</div>';
@@ -130,6 +130,7 @@ login:function(){
   var user=conf.cookies.get("username");
   if (user != "") {
   conf.info("Welcome again " + user);
+  location.reload(); 
   this.header();
   this.sidebar();
   this.menu();
