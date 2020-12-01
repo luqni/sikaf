@@ -15,11 +15,24 @@
   $conn=$this->connect();
   $sql = "SELECT * FROM  $d[tb] WHERE nama='$d[idd]' AND pin='$d[pin]'";
   $result = $conn->query($sql);
-  $row = $result->fetch();
-  if($row){  $out=array('info'=>'Berhasil,'.$d['idd'],'data'=>$d['idd'] );}
-  else { $out=array( 'info'=>'Gagal, user tidak ditemukan!'); }
-  echo json_encode($out);
+    $data=array();
+    $result->setFetchMode(PDO::FETCH_ASSOC);
+    while($row = $result->fetch()) { $data[] = $row; }
+    if($result){ $out=array('info'=>'Berhasil,'.$d['idd'],'data'=>$data);}
+    else { $out=array( 'info'=>'Gagal, ambil data','data'=>$data); }
+    echo json_encode($out);
   }
+
+  // public function signin(){
+  // $d=$this->conf;
+  // $conn=$this->connect();
+  // $sql = "SELECT * FROM  $d[tb] WHERE nama='$d[idd]' AND pin='$d[pin]'";
+  // $result = $conn->query($sql);
+  // $row = $result->fetch();
+  // if($row){  $out=array('info'=>'Berhasil,'.$d['idd'],'data'=>$d['idd'] );}
+  // else { $out=array( 'info'=>'Gagal, user tidak ditemukan!'); }
+  // echo json_encode($out);
+  // }
 
   public function signup(){
   $d=$this->conf;
